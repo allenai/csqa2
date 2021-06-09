@@ -40,7 +40,7 @@ The dataset is provided in [jsonl](https://jsonlines.org/) format such that each
  ],
  "confidence": "A number between 0 and 1.0 related to the quality of the question as produced by the Automatic question verification model (see section 2.2 in the main paper)",
  "relational_prompt": "The relational prompt as displayed to the player (see section 2.1 in the main paper for details)",
- "relational_prompt_used": "True/False, indicates whether the composing player has chosen to use the relational prompt"
+ "relational_prompt_used": "True/False, indicates whether the composing player has chosen to use the relational prompt",
  "topic_prompt": "The topic prompt as displayed to the player (see section 2.1 in the main paper for details)",
  "topic_prompt_used": "True/False, indicates whether the composing player has chosen to use the topic prompt",
  "validations" : ["yes", "no", "bad question", "sensitive", "(A list of player validations for the question that can take the values)"] 

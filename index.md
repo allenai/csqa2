@@ -1,7 +1,7 @@
 ## **Exposing the limits of AI through Gamification**
 
 CommonsenseQA is a yes/no question answering challange set which was collected using a game
-called ["Teach-Your-AI"](https://teach-your-ai.apps.allenai.org/)
+called ["Teach-Your-AI"](https://teach-your-ai.apps.allenai.org/).
 
 <center>
     <a href="https://allenai.github.io/csqa2/figures/intro.png"> 
