@@ -4,7 +4,7 @@ CommonsenseQA is a yes/no question answering challange set which was collected u
 
 <center>
     <a href="https://allenai.github.io/csqa2/figures/intro.png"> 
-        <img src="figures/intro.png" height="350">
+        <img src="figures/intro.png" height="182">
       </a>
 </center>
 
