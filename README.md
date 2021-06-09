@@ -18,9 +18,31 @@ and [website](https://allenai.github.io/csqa2/).
 
 - `07/06/2021` Version 2.01 is out.
 
-# CommonsenseQA Dataset
+# CommonsenseQA 2.0 Dataset
 
 In the [dataset](https://github.com/allenai/csqa2/tree/master/dataset) contains all dataset files:
 
-1) `train.jsonl.gz` - all training examples
-2) `dev.jsonl.gz` - all development set examples
+1) `CSQA2_train.jsonl.gz` - all training examples
+2) `CSQA2_dev.jsonl.gz` - all development set examples
+3) `CSQA2_test_no_answers.jsonl.gz` - all test set examples without answer or validations
+
+## Dataset Format
+
+The dataset is provided in [jsonl](https://jsonlines.org/) format such that each line is a single example with the following format.
+
+```json
+{
+ "id": "Unique identifier for the example (5454c14ad01e722c2619b66778daa98b)",
+ "question": "Natural language question or assertion to which the answer is yes or no (for assertions: yes is considered true, and no is considered false)",
+ "answer": [
+  "answer1",
+  "answer2"
+ ],
+ "confidence": "A number between 0 and 1.0 related to the quality of the question as produced by the Automatic question verification model (see section 2.2 in the main paper)",
+ "relational_prompt": "The relational prompt as displayed to the player (see section 2.1 in the main paper for details)",
+ "relational_prompt_used": "True/False, indicates whether the composing player has chosen to use the relational prompt"
+ "topic_prompt": "The topic prompt as displayed to the player (see section 2.1 in the main paper for details)",
+ "topic_prompt_used": "True/False, indicates whether the composing player has chosen to use the topic prompt",
+ "validations" : ["yes", "no", "bad question", "sensitive", "(A list of player validations for the question that can take the values)"] 
+}
+```
