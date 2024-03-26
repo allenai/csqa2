@@ -46,3 +46,7 @@ The dataset is provided in [jsonl](https://jsonlines.org/) format such that each
  "validations" : ["yes", "no", "bad question", "sensitive", "(A list of player validations for the question that can take the values)"] 
 }
 ```
+
+## Supplementary Material
+
+The supplementary material document provides additional information about the Dataset, the Data Collection through Gamification, Dataset Analysis, the Experimental Evaluation, and the Model Analysis. The supplementary material zipfile contains GPT3 predictions as well as contrast set and qualitative reasoning skills information. 
