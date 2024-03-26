@@ -49,4 +49,4 @@ The dataset is provided in [jsonl](https://jsonlines.org/) format such that each
 
 ## Supplementary Material
 
-The [supplementary material document](https://github.com/allenai/csqa2/tree/master/supplementary_material/) provides additional information about the Dataset, the Data Collection through Gamification, Dataset Analysis, the Experimental Evaluation, and the Model Analysis. The supplementary material zipfile contains GPT3 predictions as well as contrast set and qualitative reasoning skills information. 
+The [supplementary material document](https://github.com/allenai/csqa2/tree/master/supplementary_material/CSQA2_SupplementaryMaterial.pdf) provides additional information about the Dataset, the Data Collection through Gamification, Dataset Analysis, the Experimental Evaluation, and the Model Analysis. The [supplementary material zipfile](https://github.com/allenai/csqa2/tree/master/supplementary_material/CSQA2_SupplementaryMaterial.zip) contains GPT3 predictions as well as contrast set and qualitative reasoning skills information. 
